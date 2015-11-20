@@ -2,6 +2,7 @@
 This is a Dockerfiles to build a container images for gitlab-runner, nginx and nodejs, with the ability 
 to pull source code from git. The container can also use environment variables to 
 configure your web application using the templating detailed in the special features section.
+Based on Ubuntu 14.04
 
 ## Git reposiory
 The source files for this project can be found here: [Docker Images on Git](https://github.com/biggora/docker-images)

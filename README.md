@@ -11,7 +11,7 @@ The source files for this project can be found here: [Docker Images on Git](http
 If you have any improvements please submit a pull request.
 
 ## Docker hub repository
-The Docker hub build can be found here: [Docker Images on HUb](https://hub.docker.com/r/biggora/docker-images/)
+The Docker hub build can be found here: [Docker Images on HUB](https://hub.docker.com/r/biggora/docker-images/)
 
 
 ## Installation
@@ -19,5 +19,6 @@ Pull the image from the docker index rather than downloading the git repo.
 This prevents you having to build the image on every docker host.
 
 ```
-  docker pull biggora/docker-images:latest
+  docker pull biggora/docker-images:base
+  docker pull biggora/docker-images:gitlab-test-zone
 ```

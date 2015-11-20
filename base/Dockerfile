@@ -12,6 +12,7 @@ MAINTAINER Alexey Gordeyev <aleksej@gordejev.lv>
 # Update the repository sources list
 RUN apt-get update
 RUN apt-get dist-upgrade -y
+RUN apt-get autoclean -y
 
 ################## BEGIN INSTALLATION ######################
 

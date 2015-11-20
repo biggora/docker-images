@@ -11,8 +11,9 @@ FROM gitlab/gitlab-runner
 MAINTAINER Alexey Gordeyev <aleksej@gordejev.lv>
 
 # Update the repository sources list
-RUN apt-get update -y && \
-    apt-get upgrade -y
+RUN apt-get update
+RUN apt-get dist-upgrade -y
+RUN apt-get autoclean -y
 
 ################## BEGIN INSTALLATION ######################
 RUN apt-get install -y git nodejs-legacy nodejs-dev npm nginx-extras

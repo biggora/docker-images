@@ -8,7 +8,7 @@
 FROM gitlab/gitlab-runner
 
 # File Author / Maintainer
-MAINTAINER Aleksej Gordejev <aleksej@gordejev.lv>
+MAINTAINER Alexey Gordeyev <aleksej@gordejev.lv>
 
 # Update the repository sources list
 RUN apt-get update -y && \

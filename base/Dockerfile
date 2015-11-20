@@ -7,7 +7,7 @@
 FROM ubuntu:14.04
 
 # File Author / Maintainer
-MAINTAINER Aleksej Gordejev <aleksej@gordejev.lv>
+MAINTAINER Alexey Gordeyev <aleksej@gordejev.lv>
 
 # Update the repository sources list
 RUN apt-get update
